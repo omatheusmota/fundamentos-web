@@ -1,7 +1,13 @@
 /*Estilos da página index.html*/
 
+*{
+    background-color: rgb(228, 122, 180);
+}
+
 .center {
     text-align: center;
+    font-family:sans-serif;
+    
 }
 
 .justify {
@@ -13,21 +19,25 @@
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+    font-family:sans-serif;
+    
 }
 
 #menu li {
     display: inline;
     padding: 20px;
+    
 }
 
 #menu li a {
     text-decoration: none;
     color:rgb(0, 0, 0);
     font-size: 20px;
+    font-family:sans-serif;
 }
 
 #menu li a:hover {
-    color: rgb(206, 90, 196);
+    color: rgb(63, 63, 63);
 }
 
 .p-70 {
@@ -42,9 +52,10 @@
     border-radius: 50%;
 }
 
+
 .wh-300 {
-    width: 400px; /*largura*/
-    height: 400px; /*altura*/
+    width: 410px; /*largura*/
+    height: 500px; /*altura*/
 
 }
 
